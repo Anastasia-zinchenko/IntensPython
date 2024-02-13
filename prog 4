@@ -1,0 +1,13 @@
+def gcd (a,b):
+    while  b:
+        a,b = b, a % b
+        return a
+def reduce_fraction(a,b):
+    divider = gcd (a,b)
+    p = a // divider
+    q = b // divider
+    return p,q
+a = int(input('vvedite chislitel a: '))
+b = int(input('vvedite znamenatel b: '))
+p, q = reduce_fraction (a,b)
+print (f'socrat.drob: {p}/{q}')
