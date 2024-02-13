@@ -1,0 +1,9 @@
+import math
+e = float(input('vvedite chislo'))
+f = float(input('vvedite chislo'))
+g = float(input('vvedite chislo'))
+h = float(input('vvedite chislo'))
+a = math.sqrt(abs(math.e-(6/f))**6)+g
+b = math.sin(math.e) + math.cos(h)**6
+c = ((66*g)/(math.e*f-6))
+print(a,b,c)
